@@ -9,12 +9,11 @@
 }
 
 .small-card__photo > img {
-  width: 100%;
   height: 150px;
-  min-width: 250px;
-  max-width: 250px;
+  width: 250px;
+
   min-height: 150px;
-  max-height: 150px;
+  min-width: 250px;
 }
 
 .small-card__title {
