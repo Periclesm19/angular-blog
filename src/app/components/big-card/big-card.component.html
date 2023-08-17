@@ -2,7 +2,7 @@
 
   <div class="big-card__photo">
     <img
-      src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe80ea096-04d2-4826-8670-45e38f589613_800x450.png"
+      src="{{ photoCover }}"
       alt=""
       height="300px"
       srcset=""
@@ -10,16 +10,13 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget tellus nec mauris placerat molestie
-        id sit amet urna. Suspendisse potenti. Nam tellus neque, luctus non ultrices ullamcorper, ullamcorper
-        ac lorem. Ut at lorem a arcu dictum blandit vel a enim. Duis semper velit sit amet ante imperdiet,
-        vel convallis arcu iaculis.
+        {{ cardDescription }}
       </a>
     </p>
   </div>

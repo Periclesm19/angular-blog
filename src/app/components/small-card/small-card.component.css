@@ -11,8 +11,10 @@
 .small-card__photo > img {
   width: 100%;
   height: 150px;
-  min-width: 220px;
+  min-width: 250px;
+  max-width: 250px;
   min-height: 150px;
+  max-height: 150px;
 }
 
 .small-card__title {
@@ -26,4 +28,8 @@
 .container__small-card-separator {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.container__small-card-separator > hr {
+  border-color: black;
 }
